@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url(../images/image-bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.header__top {
+	display: flex;
+	margin-top: 20px;
+}
+
+.menu {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+#menu {
+	margin-right: 0;
+}
+
+.menu__1 {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	list-style: none;
+}
+
+.menu__list {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 80px;
+}
+
+.menu__list:hover {
+	color: #0A5BFF;
+	transition: 0.5s;
+}
+
+.tittle {
+	font-size: 110px;
+	margin-top: 150px;
+	color: #fff;
+}
+
+.tittle__text {
+	width: 455px;
+	color: #fff;
+	margin: 0;
+	line-height: 30px;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+.btn {
+	background-color: #0A5BFF;
+	border-radius: 7px;
+	color: #fff;
+	text-decoration: none;
+	padding: 16px 73px;
+}
+
+.btn:hover {
+	background-color: #6395FA;
+	transition: 0.5s;
+}
